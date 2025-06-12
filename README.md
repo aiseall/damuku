@@ -2,8 +2,11 @@
 
 基于SpringBoot的轻量级实时弹幕系统实现，支持高并发消息推送、历史弹幕时间轴关联、内容安全过滤等核心功能，适用于直播平台、在线教育、互动视频等场景。  
 
-![项目演示](https://via.placeholder.com/1280x720?text=实时弹幕+SpringBoot+WebSocket)  
+<img src="img/logo.jpeg)" alt="项目演示" width="300" height="200">
+
+
 *（注：实际使用时建议替换为项目运行截图）*  
+
 
 
 ## 🚀 核心功能  
