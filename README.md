@@ -5,8 +5,6 @@
 <img src="img/logo.jpeg)" alt="项目演示" width="300" height="200">
 
 
-*（注：实际使用时建议替换为项目运行截图）*  
-
 
 
 ## 🚀 核心功能  
