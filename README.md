@@ -24,8 +24,8 @@
 | 浏览器          | Chrome 80+/Edge 90+ | 推荐现代浏览器体验最佳 |  
 
 
-### 步骤1：克隆项目  git clone https://github.com/your-username/springboot-danmaku-system.git
-cd springboot-danmaku-system
+### 步骤1：克隆项目  git clone https://github.com/aiseall/damuku.git
+cd danmaku
 
 ### 步骤2：构建与运行  
 #### 方式1：直接运行（开发环境）  
@@ -43,7 +43,7 @@ java -jar target/danmaku-system-1.0.0.jar
 3. 查看H2数据库控制台（开发环境）：`http://localhost:8080/h2-console`（JDBC URL: `jdbc:h2:mem:danmaku_db`，用户名`sa`，密码空）  
 
 
-## 📁 项目结构  springboot-danmaku-system/
+## 📁 项目结构  danmaku-system/
 ├── src/
 │   ├── main/
 │   │   ├── java/com/example/danmaku/
@@ -74,7 +74,7 @@ java -jar target/danmaku-system-1.0.0.jar
 ## 🤝 贡献指南  
 欢迎参与项目贡献！以下是贡献流程：  
 
-1. **提交Issue**：发现Bug或建议新功能时，先在[Issue列表](https://github.com/your-username/springboot-danmaku-system/issues)中创建问题描述  
+1. **提交Issue**：发现Bug或建议新功能时，先在[Issue列表](https://github.com/aiseall/damuku/issues)中创建问题描述  
 2. **Fork仓库**：通过GitHub的Fork按钮复制项目到个人仓库  
 3. **创建分支**：基于`main`分支创建特性分支（如`feature/add-rate-limit`）  
 4. **提交代码**：完成开发后提交Pull Request，描述修改内容  
@@ -86,8 +86,8 @@ java -jar target/danmaku-system-1.0.0.jar
 
 
 ## ✨ 联系我们  
-- 邮箱：dev@example.com（替换为实际联系邮箱）  
-- 问题反馈：[GitHub Issues](https://github.com/your-username/springboot-danmaku-system/issues)  
+- 邮箱：xiaomu@ai4se.cn
+- 问题反馈：[GitHub Issues](https://github.com/aiseall/damuku/issues)  
 
 如果项目对你有帮助，欢迎Star ⭐ 支持！  
     
