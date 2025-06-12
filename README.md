@@ -24,19 +24,26 @@
 | 浏览器          | Chrome 80+/Edge 90+ | 推荐现代浏览器体验最佳 |  
 
 
-### 步骤1：克隆项目  git clone https://github.com/aiseall/damuku.git
+### 步骤1：克隆项目  
+```
+git clone https://github.com/aiseall/damuku.git
 cd danmaku
+```
 
 ### 步骤2：构建与运行  
 #### 方式1：直接运行（开发环境）  
 在IDE（如IntelliJ IDEA）中打开项目，找到`DanmakuApplication.java`主类，直接运行`main`方法启动服务。  
 
 #### 方式2：Maven打包运行（生产环境）  # 构建可执行JAR包
+```
 mvn clean package
+```
 
 # 启动服务（默认端口8080）
+```
 java -jar target/danmaku-system-1.0.0.jar
 
+```
 ### 步骤3：访问测试  
 1. 打开浏览器访问前端页面：`http://localhost:8080/index.html`  
 2. 在输入框输入弹幕内容，选择颜色后点击“发送”，实时弹幕会从右向左滚动显示  
