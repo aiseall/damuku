@@ -2,9 +2,7 @@
 
 基于SpringBoot的轻量级实时弹幕系统实现，支持高并发消息推送、历史弹幕时间轴关联、内容安全过滤等核心功能，适用于直播平台、在线教育、互动视频等场景。  
 
-<img src="img/logo.jpeg)" alt="项目演示" width="300" height="200">
-
-
+<img src="img/logo.jpeg" alt="项目演示" width="300" height="200">
 
 
 ## 🚀 核心功能  
