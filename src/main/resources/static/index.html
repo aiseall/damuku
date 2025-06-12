@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>实时弹幕系统</title>
+    <style>
+        #video-container {
+            position: relative;
+            width: 1280px;
+            height: 720px;
+            margin: 20px auto;
+            background: #000;
+        }
+        #video-player {
+            width: 100%;
+            height: 100%;
+        }
+        #danmaku-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none; /* 不影响视频操作 */
+        }
+        .danmaku-item {
+            position: absolute;
+            white-space: nowrap;
+            font-size: 24px;
+            animation: danmaku-move 8s linear forwards;
+        }
+        @keyframes danmaku-move {
+            from { transform: translateX(100%); }
+            to { transform: translateX(-100%); }
+        }
+        #input-box {
+            text-align: center;
+            margin-top: 20px;
+        }
+        #danmaku-input {
+            width: 400px;
+            padding: 8px;
+            margin-right: 10px;
+        }
+        #send-btn {
+            padding: 8px 20px;
+            background: #4285f4;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="video-container">
+        <video id="video-player" controls>
+            <source src="sample.mp4" type="video/mp4">
+        </video>
+        <div id="danmaku-container"></div>
+    </div>
+    <div id="input-box">
+        <input type="text" id="danmaku-input" placeholder="输入弹幕内容...">
+        <input type="color" id="color-picker" value="#FFFFFF">
+        <button id="send-btn">发送弹幕</button>
+    </div>
+
+    <script src="/webjars/sockjs-client/1.2.2/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/2.3.3/stomp.min.js"></script>
+    <script src="danmaku.js"></script>
+</body>
+</html>
+    
